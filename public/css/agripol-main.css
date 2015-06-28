@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'Eras Light';
+  font-style:  normal;
+  font-weight: normal;
+  src:         url('../fonts/ERASLGHT.woff') ;
+  }
+
+@font-face {
+  font-family: 'Eras Medium';
+  font-style:  normal;
+  font-weight: normal;
+  src:         url('../fonts/erasitc-medium.ttf') ;
+  }
+
+@font-face {
+  font-family: 'Eras Bold';
+  font-style:  normal;
+  font-weight: bold;
+  src:         url('../fonts/ErasITCBold.ttf') ;
+  }
+
+body {
+  font-family: "Eras Medium";
+  margin:      0;
+  padding:     0;
+  }
+
+#main-area {
+  max-width: 800px;
+  }
+
+p {
+  font-family: "Eras Medium";
+  }
+
+h1, h2, h3 {
+  font-family:            "Eras Bold";
+  -webkit-font-smoothing: antialiased;
+  color:                  #0c4b20;
+  }
+
+h1 {
+  font-size: 30pt;
+  }
+
+.banner {
+  background-color:      #0c4b20;
+  background-image:      url('../images/leaf-logo-no-text.png');
+  background-repeat:     no-repeat;
+  background-attachment: scroll;
+  background-position:   top right;
+  padding:               20px 75px;
+  }
+
+.banner h1 {
+  text-align: center;
+  color:      #d5f9bc;
+  }
+
+.banner p {
+  font-family: "Eras Light";
+  color:       #d5f9bc;
+  font-weight: normal;
+  text-align:  center;
+  font-size:   18pt;
+  line-height: 1.3em;
+  }
+
+.light-banner {
+  padding:       0 12%;
+  margin-bottom: 20px;
+  }
+
+.light-banner h2, .light-banner img {
+  text-align: center;
+  }
+
+.light-banner p {
+  font-family: "Eras Medium";
+  color:       #0c4b20;
+  font-weight: normal;
+  text-align:  center;
+  font-size:   14pt;
+  line-height: 1.3em;
+  margin:      6px 0;
+  }
+
+.light-banner p em {
+  font-weight:     bold;
+  text-decoration: underline;
+  }
+
+.medium-banner {
+  background-color: #d5f9bc;
+  padding:          5px 15%;
+  border-top:       2px solid #0c4b20;
+  }
+
+.medium-banner h1, .medium-banner h2, .medium-banner h3 {
+  font-family: "Eras Medium";
+  text-align:  center;
+  margin:      4px 0;
+  }
+
+.medium-banner h1 {
+  font-size: 24pt;
+  }
+
+.medium-banner h2 {
+  font-size:   18pt;
+  font-family: "Eras Light";
+  font-weight: normal;
+  }
+
+.image-banner {
+  text-align: center;
+  margin:     20px 0;
+  }
+
+.image-banner img {
+  border:  2px solid #0c4b20;
+  margin:  5px;
+  display: inline-block;
+  }
+
+.light-banner .image-banner img {
+  border: none;
+  }
+
+a {
+  text-decoration: none;
+  color:           inherit;
+  }
+
+a:hover {
+  text-decoration: underline;
+  }
+
+#page-footer {
+  margin:     15px 0 0 0;
+  border-top: 1px solid #0c4b20;
+  text-align: center;
+  font-size:  9pt;
+  }
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform:         scale(1)
+    }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform:         scale(1.2)
+    }
+  100% {
+    -webkit-transform: scale(1);
+    transform:         scale(1)
+    }
+  }
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform:     scale(1);
+    transform:         scale(1)
+    }
+  50% {
+    -webkit-transform: scale(3.8);
+    -ms-transform:     scale(3.8);
+    transform:         scale(3.8)
+    }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform:     scale(1);
+    transform:         scale(1)
+    }
+  }
+
+.pulse {
+  -webkit-animation-name:            pulse;
+  animation-name:                    pulse;
+  -webkit-animation-duration:        .4s;
+  animation-duration:                .4s;
+  animation-delay:                   2s;
+  -webkit-animation-delay:           2s;
+  animation-iteration-count:         2;
+  -webkit-animation-iteration-count: 2;
+  }
+
+#navigation {
+  padding:       15px 10%;
+  border-top:    3px solid #093b15;
+  border-bottom: 3px solid #0c4b20;
+  background:    #0c802e;
+  text-align:    center;
+  }
+
+#navigation p {
+  display:        inline-block;
+  color:          #093b15;
+  margin:         3px 20px;
+  font-weight:    bold;
+  text-transform: uppercase;
+  cursor:         pointer;
+  }
+
+.extra-top-space {margin-top: 25px;}
