@@ -2,13 +2,15 @@
 
 @section('content')
 
+    <div class="medium-banner">
+        <h1>Broadleaf P4 - Water Storing Granules</h1>
+    </div>
+
     <div class="container">
 
-        <div class="row">
 
-            <div class="medium-banner">
-                <h1>Broadleaf P4 - Water Storing Granules</h1>
-            </div>
+
+        <div class="row">
 
             <h3>Broadleaf P4 can reduce your watering by approximately 75%</h3>
 

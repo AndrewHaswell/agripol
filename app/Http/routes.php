@@ -11,5 +11,6 @@
 |
 */
 
-Route::get('/', 'PagesController@index');
+Route::get('/', 'PagesController@test');
 Route::get('broadleaf_p4', 'PagesController@test');
+
