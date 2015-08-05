@@ -1,4 +1,5 @@
-@extends('home')
+@extends('homepage')
+
 @section('content')
     <div class="container">
 
