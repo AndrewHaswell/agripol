@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', 'PagesController@test');
-Route::get('broadleaf_p4', 'PagesController@test');
-
+Route::get('/', function ($id) {
+  return view('home');
+});
+Route::get('/{id}', function ($id) {
+  return view('pages.'.$id);
+});
