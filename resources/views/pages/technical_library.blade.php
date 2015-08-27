@@ -12,7 +12,7 @@
 
             <p>Our Library is arranged into three main sections at the bottom of this page.  Please feel free to browse through the sections that interest you, and if you cannot find what you are looking for, 'Contact Us'.</p>
             
-            <div class="light-banner">Customer Information</div>
+            <div class="banner">Customer Information</div>
             <p>our standard information pack as shipped out to prospective customers. (For customers wishing a more detailed pack, it is possible for us to email you a .zip file of our Customer booklet, Technical Data and User Info booklet, environmental suitability statement and specification rates.  Please email <a href="mailto:support@agripol.co.uk">support@agripol.co.uk</a> for these.)</p>
 
             <div class="light-banner">Product Feedback</div>

@@ -9,10 +9,13 @@
     <div class="container">
 
         <div class="row">
-            <img src="images/broadleaf-image-1.jpg" alt="Broadleaf P4"/>
-
-            <p>We run trials and tests continually to provide the best possible product and advice. All of our staff are
-                highly qualified, and can advise you how to get the best from your plants or projects.</p>
+            <div class="col-md-3">
+                <img src="images/broadleaf-image-1.jpg" alt="Broadleaf P4"/>
+            </div>
+            <div class="col-md-9">
+                <p>We run trials and tests continually to provide the best possible product and advice. All of our staff
+                    are highly qualified, and can advise you how to get the best from your plants or projects.</p>
+            </div>
         </div>
 
         <div class="row">

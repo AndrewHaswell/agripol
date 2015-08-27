@@ -10,10 +10,10 @@
 
         <div class="row">
 
-            <p>Below are some comments and findings from our customers. Find out more (or read the full articles) in our
-                '<a href="#">Technical Library</a>'.</p>
+            <div class="light-banner"><p>Below are some comments and findings from our customers. Find out more (or read the full articles) in our
+                '<a href="#">Technical Library</a>'.</p></div>
 
-            <div class="light-banner">Large scale water savings:</div>
+            <div class="light-banner"><p>Large scale water savings:</p></div>
 
             <p>When trialled by Elmbridge Borough Council, they found that <em>"watering was required on the polymer
                     treated bed 7 times through the next 16 weeks whereas the untreated beds needed watering 52 times
@@ -24,7 +24,7 @@
 
             <p>(<a href="#">Read the full report</a>)</p>
 
-            <div class="light-banner">Better stock quality:</div>
+            <div class="light-banner"><p>Better stock quality:</p></div>
 
             <p>From Nurseryman and Garden Centre Magazine: <em>"the addition of P4 means [you] can produce a better
                     quality, more mature plant, more consistently than before, in the same time"</em>.</p>

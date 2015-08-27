@@ -16,12 +16,12 @@
 </div>
 
 <div id="navigation">
-    <p>Products</p>
-    <p>Customers</p>
-    <p>Research</p>
-    <p>Technical</p>
-    <p>Health &amp; Safety</p>
-    <p>Contact Us</p>
+    <p><a href="broadleaf_p4">Products</a></p>
+    <p><a href="what_customers_say">Customers</a></p>
+    <p><a href="current_research">Research</a></p>
+    <p><a href="technical_library">Technical</a></p>
+    <p><a href="health_and_safety">Health &amp; Safety</a></p>
+    <p><a href="contact_us">Contact Us</a></p>
 </div>
 
 @yield('content')
