@@ -2,6 +2,8 @@
 
 @section('content')
 
+    @include('navigation.contact_us')
+
     <div class="medium-banner">
         <h1>Contact us</h1>
     </div>
@@ -10,36 +12,30 @@
 
         <div class="row">
 
-            <p>Please ring our main office on +44 (0) 191 385 8348 for general enquiries relating to the UK and Europe,
-                or fill in the enquiry form on the main 'Contact Us' page.</p>
+            <div class="spacer"></div>
 
-            <p>Alternatively, please email the relevant department below:</p>
+            <p>We are always happy to help, whether with simple sales enquiries or advanced technical support. We have
+                over 25 years experience in the field and are constantly trialling our products to find even better ways
+                of using them, and are more than happy to advise you.</p>
 
-            <table>
-                <tr>
-                    <td>Sales and pricing enquiries:</td>
-                    <td><a href="mailto:sales@agripol.co.uk">sales@agripol.co.uk</a></td>
-                </tr>
-                <tr>
-                    <td>Shipping or delivery enquiries:</td>
-                    <td><a href="mailto:logistics@agripol.co.uk">logistics@agripol.co.uk</a></td>
-                </tr>
-                <tr>
-                    <td>General enquiries:</td>
-                    <td><a href="info@agripol.co.uk">info@agripol.co.uk</a></td>
-                </tr>
-            </table>
+            <h3 class="underline-header">General Enquiries</h3>
 
-            <div class="light-banner">Technical Support</div>
+            <p>Please use the form below.</p>
+
+            <p>If you would rather speak to us via telephone, our number is +44 (0) 191 3858348. Our office staff are in
+                from 9am until 3.30pm weekdays for sales or pricing enquiries and to take orders, but we do have an
+                answer phone should you wish to leave a message outside these hours.</p>
+
+            <h3 class="underline-header">Technical Support</h3>
 
             <p>For technical support or guidance, you can ask to speak to Paul, our applications expert, on the above
-                number. He has a very busy schedule, but you will usually receive a callback by the end of the working
-                day. If you have a particularly complex or tricky issue, you can book a video-call appointment via the
-                main office.</p>
+                number. It may not always be possible for him to speak to you immediately, as he has a very busy
+                timetable, but you will usually recieve a callback before the end of the working day.</p>
 
-            <div class="light-banner">Company Address / Head Office</div>
 
-            <p>23 Callington Close, Bournmoor, Co. Durham, DH4 6BJ England.</p>
+            <h3 class="underline-header">Company Address / Head Office</h3>
+
+            23 Callington Close, Bournmoor, Co. Durham, DH4 6BJ England.
 
         </div>
     </div>

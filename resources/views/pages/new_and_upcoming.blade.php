@@ -10,14 +10,16 @@
 
         <div class="row">
 
+            <div class="spacer"></div>
+
             <p>We have BROADLEAF PROPAGATING POLYMER available. This polymer is a slightly smaller size than our regular
                 Broadleaf P4 and is ideal for use in smaller modules and propagating systems.</p>
 
-            <p>Please <a href="#">contact us</a> if you would be interested in this product and we will discuss your
+            <p>Please <a href="contact_us">contact us</a> if you would be interested in this product and we will discuss your
                 requirements. It is now available in 2, 10 and 25kg packs, and is the same price as the rest of our
                 range.</p>
 
-            <h2>NOW IN STOCK</h2>
+            <h3 class="underline-header">NOW IN STOCK</h3>
 
             <p>We are now offering Broadleaf Root Dip and Broadleaf P4 in 250g containers as well as our traditional
                 2kg, 10kg and 25kg packs. These smaller packs are perfect for the casual or hobby gardener, this allows
@@ -30,7 +32,7 @@
 
             <p>Why not try it? You'll be astonished at how easy it makes gardening!</p>
 
-            <p>Why not visit <a href="#">Our Shop</a> for prices and to buy, or <a href="#">contact us</a> for more
+            <p>Why not visit <a href="shop">Our Shop</a> for prices and to buy, or <a href="contact_us">contact us</a> for more
                 information.</p>
 
         </div>

@@ -2,6 +2,8 @@
 
 @section('content')
 
+    @include('navigation.contact_us')
+
     <div class="medium-banner">
         <h1>Legal Information</h1>
     </div>
@@ -9,6 +11,8 @@
     <div class="container">
 
         <div class="row">
+
+            <div class="spacer"></div>
 
             <p>IT IS A CONDITION OF Agricultural Polymers International Ltd ALLOWING YOU FREE ACCESS TO THE MATERIAL ON
                 THIS WEBSITE THAT YOU ACCEPT THE TERMS AND CONDITIONS OF THIS NOTICE.</p>

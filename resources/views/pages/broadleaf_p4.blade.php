@@ -2,6 +2,8 @@
 
 @section('content')
 
+    @include('navigation.broadleaf')
+
     <div class="medium-banner">
         <h1>Broadleaf P4 - Water Storing Granules</h1>
     </div>
@@ -9,10 +11,11 @@
     <div class="container">
 
 
-
         <div class="row">
 
-            <h3>Broadleaf P4 can reduce your watering by approximately 75%</h3>
+            <h3 class="underline-header">Broadleaf P4 can reduce your watering by approximately 75%</h3>
+
+            <image class="agrimg-left" src="images/p4 close cropped.jpg"/>
 
             <p>In addition, it provides improved soil structure and better plant and root growth. It also reduces
                 leaching and
@@ -45,7 +48,9 @@
 
         <div class="row">
             <div class="col-md-6">
-                <h3>How P4 Absorbs Water</h3>
+                <h3 class="underline-header">How P4 Absorbs Water</h3>
+
+                <p><img class="agrimg-center" src="images/crystals to jelly.jpg"/></p>
 
                 <p>P4 is stored and transported as small, non-hazardous crystals. Once these are mixed into your
                     compost/growing media and hydrated, they begin absorbing water and swelling. Once they are fully
@@ -54,7 +59,9 @@
             </div>
 
             <div class="col-md-6">
-                <h3>Adding P4 to Compost</h3>
+                <h3 class="underline-header">Adding P4 to Compost</h3>
+
+                <p><img class="agrimg-center" src="images/cabbage seedlings.jpg"/></p>
 
                 <p>Adding P4 to compost allows plants to grow faster and better than planting/seeding in non-treated
                     compost. From a few flowers or veggies in the back garden to huge landscaping projects, P4
@@ -64,7 +71,9 @@
 
         <div class="row">
             <div class="col-md-6">
-                <h3>Speedier Maturation</h3>
+                <h3 class="underline-header">Speedier Maturation</h3>
+
+                <p><img class="agrimg-center" src="images/flowers.jpg"/></p>
 
                 <p>It's not only increased growth, but faster maturation that makes P4 ideal for landscaping and hobby
                     gardening. Plants flower earlier and for longer, as they have minimal water stress to slow their
@@ -73,7 +82,9 @@
             </div>
 
             <div class="col-md-6">
-                <h3>Plant Survival</h3>
+                <h3 class="underline-header">Plant Survival</h3>
+
+                <p><img class="agrimg-center" src="images/barley survival.jpg"/></p>
 
                 <p>These trays of Barley, grown under controlled drought conditions, show how the addition of P4
                     improves plant survival. The plants were not watered for the six days previous to this photograph,
@@ -81,9 +92,13 @@
                     matured to harvest stage with no additional water or nutrient supply.</p>
             </div>
 
+        </div></div>
+        <div class="medium-banner">
+            <p><strong>If you would like to purchase P4, we can cater for all customers. We provide P4 in 250g tubs, 2kg
+                    buckets, 10kg buckets and 25kg sacks, and it has a shelf life of approximately 25 years when stored
+                    correctly.</strong></p>
         </div>
 
-    </div>
 
 
 @endsection

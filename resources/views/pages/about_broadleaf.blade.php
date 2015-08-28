@@ -1,7 +1,12 @@
 @extends('homepage')
 
+
+
 @section('content')
+
     <div class="container">
+
+        
 
             <div class="medium-banner">
                 <h1>What do Broadleaf products do?</h1>

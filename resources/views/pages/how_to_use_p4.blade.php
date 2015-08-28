@@ -1,15 +1,17 @@
 @extends('homepage')
 
 @section('content')
+    @include('navigation.broadleaf')
 
     <div class="medium-banner">
         <h1>How to use P4 for best results:</h1>
     </div>
 
+    <div class="spacer"></div>
+
     <div class="container">
 
         <div class="row">
-
 
             <p>For best results right from the start, Broadleaf P4 should be mixed evenly throughout the planting medium
                 (soil/compost/sand etc) and fully charged with water. If it is unlikely that you will get enough rain
@@ -29,27 +31,27 @@
             <?php // TODO: Anchor Text ?>
 
             <ul>
-                <li>Propagating</li>
-                <li>Pot and Container Plants, Window Boxes, Hanging Baskets</li>
-                <li>Soil Planting (Crop and Garden)</li>
-                <li>Tree and Shrub Planting</li>
-                <li>Interior Landscaping</li>
-                <li>Grassed Playing Surfaces</li>
-                <li>Cane, Bush and Soft Fruit</li>
-                <li>Arid and Semi-Arid Conditions</li>
-                <li>Conversions</li>
+                <li><a href="#Propagating">Propagating</a></li>
+                <li><a href="#container_plants">Pot and Container Plants, Window Boxes, Hanging Baskets</a></li>
+                <li><a href="#soil_planting">Soil Planting (Crop and Garden)</a></li>
+                <li><a href="#tree_shrub">Tree and Shrub Planting</a></li>
+                <li><a href="#interior_landscaping">Interior Landscaping</a></li>
+                <li><a href="#grassed_surfaces">Grassed Playing Surfaces</a></li>
+                <li><a href="#soft_fruit">Cane, Bush and Soft Fruit</a></li>
+                <li><a href="#arid_conditions">Arid and Semi-Arid Conditions</a></li>
+                <li><a href="#conversions">Conversions</a></li>
             </ul>
 
-            <h3>Propagating</h3>
+            <h3 class="underline-header"><a id="Propagating">Propagating</a></h3>
 
-            <img src="images/broadleaf-image-1.jpg" alt="To be replace"/>
+            <img src="images/cabbage seedlings.jpg" class="agrimg-right"/>
 
             <ol>
-                <li><strong>1. Seeds and Cuttings.</strong><br/>
+                <li><strong>Seeds and Cuttings.</strong><br/>
                     Striking improvements in germination rate and root growth are achieved when P4 is blended at 1 gram
                     per litre of propagating medium.
                 </li>
-                <li><strong>2. Plugs/Modules.</strong><br/>
+                <li><strong>Plugs/Modules.</strong><br/>
                     Mix 1 gram of P4 per litre of compost. This creates a very superior seed environment with a much
                     better balance between water supply and aeration. Plants will also get away better after
                     transplanting.<br/>
@@ -59,9 +61,9 @@
             </ol>
 
 
-            <h3>Pot and Container Plants, Window Boxes,Hanging Baskets</h3>
+            <h3 class="underline-header"><a id="container_plants">Pot and Container Plants, Window Boxes,Hanging Baskets</a></h3>
 
-            <img src="images/broadleaf-image-1.jpg" alt="To be replace"/>
+            <img src="images/broadleaf-image-1.jpg" class="agrimg-left"/>
 
             <p>Broadleaf P4 improves constancy of moisture supply and aeration, and also reduces leaching. Longer
                 intervals between irrigating, stronger, more uniform growth and earlier market or display readiness are
@@ -77,9 +79,9 @@
                 become fully colonised by the roots and thus make available to the roots the extra water supply, so be
                 sure to account for this when watering during that period.</p>
 
-            <h3>Soil Planting (Crop and Garden)</h3>
+            <h3 class="underline-header"><a id="soil_planting">Soil Planting (Crop and Garden)</a></h3>
 
-            <img src="images/broadleaf-image-1.jpg" alt="To be replace"/>
+            <img src="images/bedding plants.jpg" class="agrimg-right"/>
 
             <p>Broadleaf P4 makes an immediate and long lasting improvement in structure, available water-holding
                 capacity and porosity of hardworking soils. A single application will go on working for around 5
@@ -95,9 +97,9 @@
                 For placement at each plant station, 2-5 gms per plant (depending on crop, soil and climatic
                 conditions), would be suitable treatment rates.</p>
 
-            <h3>Tree and Shrub Planting</h3>
+            <h3 class="underline-header"><a id="tree_shrub">Tree and Shrub Planting</a></h3>
 
-            <img src="images/broadleaf-image-1.jpg" alt="To be replace"/>
+            <img src="images/tree trials.jpg" class="agrimg-left"/>
 
             <p>Whether bare-root or container grown stock, trees and shrubs will better survive transplanting and
                 require much less frequent irrigating with Broadleaf P4 at their roots. Greatly reduced transplanting
@@ -113,7 +115,7 @@
                 throughout.</p>
 
 
-            <h3>Interior Landscaping</h3>
+            <h3 class="underline-header"><a id="interior_landscaping">Interior Landscaping</a></h3>
 
             <p>Container plants in places of work and leisure will require much less watering when Broadleaf P4 is on
                 the job day and night, giving a supply of moisture steadily and reliably as required. These high value
@@ -125,7 +127,7 @@
                 possible into the compost, taking care to minimise root damage. Where container-grown plants are to be
                 set into a larger bed, mix the granules into the surrounding bed.</p>
 
-            <h3>Grassed Playing Surfaces</h3>
+            <h3 class="underline-header"><a id="grassed_surfaces">Grassed Playing Surfaces</a></h3>
 
             <p>Broadleaf P4 improves soil structure as well as water-holding capacity, for stronger, deeper root growth
                 and reduced watering requirement.</p>
@@ -140,7 +142,7 @@
 
             <p>SAND BASED CONSTRUCTION: As for 'Maintenance Rate', above.</p>
 
-            <h3>Cane, Bush and Soft Fruit</h3>
+            <h3 class="underline-header"><a id="soft_fruit">Cane, Bush and Soft Fruit</a></h3>
 
             <p>These can be highly susceptible to drought and subsequent loss of crop size. Broadleaf P4 will maintain
                 the moisture supply much longer, improve soil structure and help you to achieve high-grade results even
@@ -152,7 +154,7 @@
                 application to established crops cultivate into the soil as close to the plants as possible, taking care
                 to minimise root damage.</p>
 
-            <h3>Arid and Semi-Arid Conditions</h3>
+            <h3 class="underline-header"><a id="arid_conditions">Arid and Semi-Arid Conditions</a></h3>
 
             <p>Where hot, dry conditions cause very high rates of evapo-transpiration, P4 application rates should be
                 adjusted according to the salinity of the irrigation water, as indicated below:</p>
@@ -176,7 +178,7 @@
                 </tr>
             </table>
 
-            <h3>Conversions</h3>
+            <h3 class="underline-header"><a id="conversions">Conversions</a></h3>
 
             <p>1 gm/litre is pro-rata equivalent to 1 kg/m³ or 1.7 lbs/yd³.</p>
 

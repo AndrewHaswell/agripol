@@ -14,7 +14,7 @@
 
             <table>
                 <tr>
-                    <td>Product trade names:</td>
+                    <td width="25%">Product trade names:</td>
                     <td>'Broadleaf P4', 'Broadleaf Root Dip' & Water-Saving Gel</td>
                 </tr>
                 <tr>
@@ -39,7 +39,7 @@
 
             <table>
                 <tr>
-                    <td>Description:</td>
+                    <td width="25%">Description:</td>
                     <td>Synthetic, high molecular weight, fully Cross-linked Polyacrylamide/Polyacrylate co-polymer.
                         White, free-flowing, angular granules.
                     </td>
@@ -66,7 +66,7 @@
 
             <table>
                 <tr>
-                    <td>Inhalation</td>
+                    <td width="25%">Inhalation</td>
                     <td>There are no hazards that require special first aid procedures.</td>
                 </tr>
                 <tr>
@@ -93,7 +93,7 @@
 
             <table>
                 <tr>
-                    <td>Extinguishing materials</td>
+                    <td width="25%">Extinguishing materials</td>
                     <td>Water, foam, carbon dioxide, dry powder.</td>
                 </tr>
                 <tr>
@@ -114,7 +114,7 @@
 
             <table>
                 <tr>
-                    <td>Personal precautions</td>
+                    <td width="25%">Personal precautions</td>
                     <td>None needed</td>
                 </tr>
                 <tr>
@@ -133,7 +133,7 @@
 
             <table>
                 <tr>
-                    <td>Handling</td>
+                    <td width="25%">Handling</td>
                     <td>Products are non-toxic but normal industrial hygiene precautions should be observed during
                         handling.
                         Do not breathe dust. Wash hands at start of breaks and close of shift.
@@ -149,7 +149,7 @@
 
             <table>
                 <tr>
-                    <td>Occupational Exposure Limits:</td>
+                    <td width="25%">Occupational Exposure Limits:</td>
                     <td>The EDANA Industrial Hygiene Guideline is 0.05 mg/m3 respirable superabsorbent polymer dust
                         (respirable dust is <10µ)
                     </td>
@@ -186,7 +186,7 @@
 
             <table>
                 <tr>
-                    <td>Form</td>
+                    <td width="25%">Form</td>
                     <td>Granules</td>
                 </tr>
                 <tr>
@@ -231,7 +231,7 @@
 
             <table>
                 <tr>
-                    <td>Stability</td>
+                    <td width="25%">Stability</td>
                     <td>Very stress resistant and will not powder during normal handling.</td>
                 </tr>
                 <tr>
@@ -248,7 +248,7 @@
 
             <table>
                 <tr>
-                    <td>Acute toxicity</td>
+                    <td width="25%">Acute toxicity</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -296,7 +296,7 @@
 
             <table>
                 <tr>
-                    <td>Eco-toxicity</td>
+                    <td width="25%">Eco-toxicity</td>
                     <td>No damage to the environment is likely in normal usage.</td>
                 </tr>
                 <tr>
@@ -309,7 +309,7 @@
 
             <table>
                 <tr>
-                    <td>Waste from residues/unused products</td>
+                    <td width="25%">Waste from residues/unused products</td>
                     <td>In accordance with statutory requirements.</td>
                 </tr>
                 <tr>

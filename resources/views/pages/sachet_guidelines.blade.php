@@ -2,6 +2,8 @@
 
 @section('content')
 
+    @include('navigation.broadleaf')
+
     <div class="medium-banner">
         <h1>How to use your sample sachet:</h1>
     </div>
@@ -10,6 +12,7 @@
 
         <div class="row">
 
+            <div class="spacer"></div>
 
             <p>If you have received a sample sachet of Broadleaf P4 through one of our promotions, but are not sure what
                 to do with it, we have provided a step by step guide for how to get the best results.</p>
@@ -31,15 +34,16 @@
                 </li>
                 <li>Keep an eye on your plants and water whenever they show signs of wilting.</li>
             </ul>
-
+        </div></div>
+            <div class="medium-banner">
             <p><strong>A handy tip:</strong> If you are planting seeds, hydrate a few granules of P4 first. Push your
                 seed a little way into the top of a granule, then place in the soil and cover over lightly. This will
                 ensure the seedling has an ample supply of water as it's germinating and starting to put out roots,
                 which will mean you are far less likely to lose it to drought/stress, and your plant has the best
-                possible chance of growing up big and healthy!</p>
+                possible chance of growing up big and healthy!</p></div>
 
-        </div>
 
-    </div>
+
+
 
 @endsection

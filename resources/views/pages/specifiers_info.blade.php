@@ -2,6 +2,8 @@
 
 @section('content')
 
+    @include('navigation.broadleaf')
+
     <div class="medium-banner">
         <h1>Recommended wording for specifying rates of application</h1>
     </div>
@@ -11,7 +13,7 @@
         <div class="row">
 
 
-            <h3>Pit Planting of Trees</h3>
+            <h3 class="underline-header">Pit Planting of Trees</h3>
 
             <p>Broadleaf P4 water-storing polymer granules to be homogeneously mixed into the planting medium at the
                 rate of 1* gram per litre of planting pocket capacity'. (NB: If P4 is to be pre-blended with a
@@ -24,19 +26,19 @@
                 applied by 25% to allow for the volume of the root-ball</p>
 
 
-            <h3>High Density Planting (ground cover, shrub beds, bedding plants etc)</h3>
+            <h3 class="underline-header">High Density Planting (ground cover, shrub beds, bedding plants etc)</h3>
 
             <p>'Broadleaf P4 water-storing polymer granules to be applied to the soil at 100* grams per M2 and
                 cultivated in to the top 20 or 30 cms.'</p>
 
 
-            <h3>Notch or Slit Planting</h3>
+            <h3 class="underline-header">Notch or Slit Planting</h3>
 
             <p>'Broadleaf P4 water-storing polymer to be sprinkled into the open notch or slit at the rate of 2-5 grams
                 per planting station' (depending upon the size of the plant and/or the notch).</p>
 
 
-            <h3>Containerised Stock Planting</h3>
+            <h3 class="underline-header">Containerised Stock Planting</h3>
 
             <p>'Excavate a planting pocket double the size of the original pot or container volume and blend Broadleaf
                 P4 water-storing polymer into the planting medium immediately surrounding the root ball at the rate of
@@ -44,19 +46,19 @@
                 polymer into the 10 litres of planting medium surrounding the 10 litre root-ball).</p>
 
 
-            <h3>Raised Planting Beds, Planting Tubs, Interiorscapes</h3>
+            <h3 class="underline-header">Raised Planting Beds, Planting Tubs, Interiorscapes</h3>
 
             <p>'Broadleaf P4 water-storing polymer granules to be homogeneously mixed with the planting medium at the
                 rate of 1* gram per litre of planting medium'</p>
 
 
-            <h3>Window Boxes, Hanging Baskets</h3>
+            <h3 class="underline-header">Window Boxes, Hanging Baskets</h3>
 
             <p>'Broadleaf P4 water-storing polymer granules to be homogeneously mixed into the compost (or other growing
                 medium) at the rate of 1.75* grams per litre of compost.'</p>
 
 
-            <h3>Turfgrass</h3>
+            <h3 class="underline-header">Turfgrass</h3>
 
             <p>Establishment Rate: 'Apply 20* grams of Broadleaf P4 granules per M2 and cultivate into the top 5 cms.
                 Apply the seed (or turf) and irrigate to field capacity to ensure the soil and P4 are fully charged with
@@ -67,7 +69,7 @@
                 capacity to ensure the soil and P4 are fully charged with water.' (This rate will improve establishment
                 and reduce irrigation and fertiliser requirements for the longer term).</p>
 
-            <h3>*ARID AND SEMI-ARID CONDITIONS</h3>
+            <h3 class="underline-header">*ARID AND SEMI-ARID CONDITIONS</h3>
 
             <p>Where hot, dry conditions cause very high rates of evapo-transpiration, multiply all the above
                 application rates marked * by the amounts shown in the table below, according to the salinity of the

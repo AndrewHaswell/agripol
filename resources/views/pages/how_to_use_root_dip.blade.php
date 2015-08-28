@@ -10,9 +10,13 @@
 
         <div class="row">
 
+            <div class="spacer"></div>
+
             <p>BROADLEAF ROOT DIP is a safe, non-phytotoxic polymer supplied in dry, powder form. Simply add the powder
                 to water and stir. The polymer powder absorbs the water and becomes fully hydrated into its usable, gel
                 form in only a few minutes.</p>
+
+            <img src="images/hydrated rootdip crystals.jpg" class="agrimg-right" />
 
             <p>It is important to hydrate the powder to the right gel consistency, so that sufficient gel adheres to the
                 roots to be effective but not so much as to be uneconomic.hydrated rootdip crystals</p>
@@ -49,9 +53,13 @@
                 litres of water to a suitable container and sprinkle 10 grams (about 2 teaspoonsful) of polymer powder
                 into the container while agitating the water to prevent lumps from forming.</p>
 
+            <img src="images/1st stage rootdip.jpg" class="agrimg-left"/>
+
             <p>After about 3 or 4 minutes dip the bare roots of a plant into the gel. If the gel is too thick and too
                 much adheres to the roots, add another 250ml of water, stir, wait another 3 or 4 minutes and try again,
                 adding more water if necessary until the desired consistency is achieved.</p>
+
+            <img src="images/rootdip stage three cropped.jpg" class="agrimg-right"/>
 
             <p>If the gel consistency is too thin for adequate root-adherence, add more powder and mix, waiting 3 or 4
                 minutes before testing again.</p>
@@ -82,14 +90,20 @@
 
         <div class="row">
             <div class="col-md-6">
-                <h3>Your test dip...</h3>
+
+                <h3 class="underline-header">Your test dip...</h3>
+
+                <img src="images/1st stage rootdip cropped.jpg" class="agrimg-center"/>
 
                 <p>After mixing a small amount of powder with water to establish a trial batch, select a tree to
                     dip.</p>
             </div>
 
             <div class="col-md-6">
-                <h3>Submerge the roots</h3>
+
+                <h3 class="underline-header">Submerge the roots</h3>
+
+                <img src="images/2nd stage rootdip.jpg" class="agrimg-center"/>
 
                 <p>Dip the tree so that the roots are completely covered by the gel.</p>
             </div>
@@ -97,7 +111,10 @@
 
         <div class="row">
             <div class="col-md-6">
-                <h3>Check the coverage</h3>
+
+                <h3 class="underline-header">Check the coverage</h3>
+
+                <img src="images/rootdip stage three cropped.jpg" class="agrimg-center"/>
 
                 <p>Lift the tree out and check how well covered the roots are. If the gel just slides off, you have too
                     much water in your test batch. If the gel is too thick on the roots, you need to add some water.</p>
