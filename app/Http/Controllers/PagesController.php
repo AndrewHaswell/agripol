@@ -22,4 +22,11 @@ class PagesController extends Controller
   {
     return view('pages.broadleaf_p4');
   }
+
+  public function contact()
+  {
+
+    exit('andy');
+
+  }
 }

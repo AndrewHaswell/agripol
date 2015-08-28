@@ -14,6 +14,9 @@
 Route::get('/', function () {
   return view('home');
 });
+
+Route::post('contact', 'PagesController@contact');
+
 Route::get('/{id}', function ($id) {
   return view('pages.'.$id);
 });

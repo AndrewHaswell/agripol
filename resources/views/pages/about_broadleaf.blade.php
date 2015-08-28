@@ -4,23 +4,26 @@
 
 @section('content')
 
+    @include('navigation.broadleaf')
+
+    <div class="medium-banner">
+        <h1>What do Broadleaf products do?</h1>
+    </div>
+
     <div class="container">
 
-        
 
-            <div class="medium-banner">
-                <h1>What do Broadleaf products do?</h1>
-            </div>
+        <div class="row">
 
-            <div class="row">
-
-            <h3>Broadleaf P4 – water storer and soil conditioner</h3>
+            <h3 class="underline-header">Broadleaf P4 – water storer and soil conditioner</h3>
 
             <p>While many horticultural companies have now started offering similar products, our unique Broadleaf P4
                 was
                 (and is!) the pioneer of water-storing polymer technology- and we still lead the way with our
                 top-quality
                 range of water saving polymer products.</p>
+
+            <img src="images/p4 close cropped.jpg" class="agrimg-left"/>
 
             <p>Customers often struggle with what exactly to call this product when describing it to others- we are
                 commonly asked for water storing gel, water storing crystals, water gel, water gel crystals, water
@@ -38,6 +41,8 @@
                 we can
                 assist you with almost any query!).</p>
 
+            <img src="images/new root through p4.jpg" class="agrimg-right"/>
+
             <p>Not only do our polymers cut down on watering by approximately 3/4, they also allow your plants to grow
                 with minimal water stress-leading to larger, healthier plants in less time</p>.
 
@@ -48,7 +53,7 @@
 
             <p>For more information on Broadleaf P4 - click here.</p>
 
-            <h3>Broadleaf Root Dip</h3>
+            <h3 class="underline-header">Broadleaf Root Dip</h3>
 
             <p>Utilising much the same technology as Broadleaf P4, Broadleaf Root Dip also absorbs water to release to
                 the
@@ -65,7 +70,7 @@
             <p>Best of all, Root Dip is very economical - Just 1 kg of powder can treat up to 1300 45-60cm
                 transplants!</p>
 
-            <p>For more information on Broadleaf Root Dip - click here.</p>
+            <p>For more information on Broadleaf Root Dip - <a href="rootdip">click here</a>.</p>
         </div>
     </div>
 @endsection
