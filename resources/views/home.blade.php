@@ -45,7 +45,7 @@
         <p><em>Suitable for:</em> all plant species and all growing or planting media.</p>
         <p><em>Beneficial for:</em> Horticulture, Landscaping, Sportsfield / Golf-course Construction, Forestry and Land
             Reclamation.</p>
-        <h2>Find out more by <a href="#">clicking here</a></h2>
+        <h2>Find out more by <a href="broadleaf_p4">clicking here</a></h2>
     </div>
 
     <div class="medium-banner">
@@ -58,21 +58,24 @@
     <div class="light-banner">
         <p><em>Ideal for:</em> bare root transplant storage and transport.</p>
         <p><em>Suitable for:</em> all plant species, from saplings to mature trees.</p>
-        <h2>Find out more by <a href="#">clicking here</a></h2>
+        <h2>Find out more by <a href="rootdip">clicking here</a></h2>
     </div>
 
     <div class="banner"><h1>What does our Broadleaf&reg; water saving polymer range do?</h1>
-        <p><a href="#">Click here</a> to find out more</p>
+        <p><a href="about_broadleaf">Click here</a> to find out more</p>
     </div>
 
-    <div class="light-banner extra-top-space"><p>We are currently asking our existing customers to fill out a short
+
+    <?php // TODO - Survey ?>
+    <!--
+    <p>We are currently asking our existing customers to fill out a short
             survey/questionnaire in order to help us improve. If you have ordered from us recently, and can spare 5
             minutes,
-            it would be much appreciated if you could fill this in by <a href="#">clicking here</a>.</p>
-
-        <p>Each of the links on the left offers information on our products or services- some, such as 'Broadleaf P4',
-            also have additional information that will appear as a sub-menu when you hover over them with your mouse. If you
-            cannot find what you're looking for, please feel free to 'Contact Us', and someone will respond as soon as
+            it would be much appreciated if you could fill this in by <a href="#">clicking here</a>.</p>-->
+    <div class="light-banner extra-top-space">
+        <p><!--Each of the links on the left offers information on our products or services- some, such as 'Broadleaf P4',
+            also have additional information that will appear as a sub-menu when you hover over them with your mouse. -->If you
+            cannot find what you're looking for, please feel free to <a href="contact_us">Contact Us</a>, and someone will respond as soon as
             they are able.</p>
     </div>
 @endsection

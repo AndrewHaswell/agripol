@@ -80,8 +80,10 @@
                 either on this page if you're happy to have it shared, or in an email to <a
                         href="mailto:info@agripol.co.uk">info@agripol.co.uk</a>, marked confidential.</p>
 
-            <p>We are also currently running a survey to see where we can improve - if you have 5 minutes to spare it
-                would be much appreciated if you could fill one in <a href="#">here</a>.</p>
+            <?php // TODO survey ?>
+
+            <!--<p>We are also currently running a survey to see where we can improve - if you have 5 minutes to spare it
+                would be much appreciated if you could fill one in <a href="#">here</a>.</p>-->
 
         </div>
 
